@@ -1,0 +1,123 @@
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.gap-2 {
+    gap: 8px;
+}
+
+.gap-3 {
+    gap: 12px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.border-right {
+    border-right: 1px solid #30363d;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+
+    .col-6 {
+        grid-column: span 6;
+        padding: 40px 0;
+    }
+}

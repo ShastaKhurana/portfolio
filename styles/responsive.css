@@ -1,0 +1,34 @@
+@media (max-width: 991.5px) {
+
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-section,
+    .scrollable-content {
+        grid-column: span 1;
+    }
+
+    .profile-section {
+        position: relative;
+        top: auto;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 575.5px) {
+    .main-grid {
+        padding: 150px 20px;
+    }
+
+    .h-screen {
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .icon {
+        bottom: 12px;
+        right: 2px;
+    }
+}
